@@ -1,0 +1,29 @@
+{
+  "name": "@benschaser/strafe",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "strafe": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ben Schaser",
+  "license": "MIT",
+  "description": "A framework-agnostic style translator.",
+  "keywords": [
+    "css",
+    "xaml",
+    "translator",
+    "framework",
+    "style"
+  ],
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
